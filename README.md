@@ -14,7 +14,7 @@ or [Download](https://cdn.jsdelivr.net/gh/lullaby6/language-redirect.js/language
 
 ### HTML
 
-In your script tag you can use the ````data-language-redirect``` attribute for config the redirects easly.
+In your script tag you can use the ```data-language-redirect``` attribute for config the redirects easly.
 
 ```html
 <script
@@ -25,7 +25,7 @@ In your script tag you can use the ````data-language-redirect``` attribute for c
 
 ### JS
 
-Also you can use the ````languageRedirect``` function to config the redirects via JavaScript.
+Also you can use the ```languageRedirect``` function to config the redirects via JavaScript.
 
 ```js
 languageRedirect({
