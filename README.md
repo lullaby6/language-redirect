@@ -8,7 +8,7 @@
 <script src='https://cdn.jsdelivr.net/gh/lullaby6/language-redirect.js/language-redirect.cdn.js'></script>
 ```
 
-or [Download](https://cdn.jsdelivr.net/gh/lullaby6/language-redirect.js/language-redirect.cdn.js)
+or <a href="https://cdn.jsdelivr.net/gh/lullaby6/language-redirect.js/language-redirect.cdn.js" target="_blank">Download</a>
 
 ## Usage
 
