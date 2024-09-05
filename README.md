@@ -19,7 +19,7 @@ In your script tag you can use the ```data-language-redirect``` attribute for co
 ```html
 <script
     src='https://cdn.jsdelivr.net/gh/lullaby6/language-redirect.js/language-redirect.cdn.js'
-    data-language-redirect='{ "es": "es/index.html" }'
+    data-language-redirect='{ "es": "/es/index.html" }'
 ></script>
 ```
 
@@ -29,6 +29,6 @@ Also you can use the ```languageRedirect``` function to config the redirects via
 
 ```js
 languageRedirect({
-    es: 'es/index.html'
+    es: '/es/index.html'
 });
 ```
