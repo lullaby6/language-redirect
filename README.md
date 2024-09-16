@@ -12,7 +12,7 @@ or <a href="https://cdn.jsdelivr.net/gh/lullaby6/language-redirect.js/language-r
 
 ## Usage
 
-### HTML
+### in HTML
 
 In your script tag you can use the ```data-language-redirect``` attribute for config the redirects easly.
 
@@ -23,7 +23,7 @@ In your script tag you can use the ```data-language-redirect``` attribute for co
 ></script>
 ```
 
-### JS
+### in JavaScript
 
 Also you can use the ```languageRedirect``` function to config the redirects via JavaScript.
 
