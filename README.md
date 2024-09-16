@@ -4,6 +4,8 @@
 
 ### CDN
 
+Include this tag in your html ```head```
+
 ```html
 <script src='https://cdn.jsdelivr.net/gh/lullaby6/language-redirect.js/language-redirect.cdn.js'></script>
 ```
