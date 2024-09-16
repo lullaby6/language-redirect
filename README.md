@@ -1,5 +1,7 @@
 # language-redirect.js
 
+A lightweight and easy-to-use js library to redirection for support differents languages
+
 ## Installation
 
 ### CDN
@@ -16,7 +18,7 @@ or <a href="https://cdn.jsdelivr.net/gh/lullaby6/language-redirect.js/language-r
 
 ### in HTML
 
-In your script tag you can use the ```data-language-redirect``` attribute for config the redirects easly.
+In your script tag you can use the ```data-language-redirect``` attribute for config the redirects easly
 
 ```html
 <script
@@ -27,7 +29,7 @@ In your script tag you can use the ```data-language-redirect``` attribute for co
 
 ### in JavaScript
 
-Also you can use the ```languageRedirect``` function to config the redirects via JavaScript.
+Also you can use the ```languageRedirect``` function to config the redirects via JavaScript
 
 ```js
 languageRedirect({
