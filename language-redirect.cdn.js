@@ -28,10 +28,10 @@ function languageRedirect(redirects) {
 if (
     document.currentScript &&
     document.currentScript.src &&
-    document.currentScript.getAttribute('data-language-redirect')
+    document.currentScript.dataset.languageRedirect
 ) {
     try {
-        languageRedirect(JSON.parse(document.currentScript.getAttribute('data-language-redirect')))
+        languageRedirect(JSON.parse(document.currentScript.dataset.languageRedirect))
     } catch (error) {
         console.error(error)
     }
