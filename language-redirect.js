@@ -1,4 +1,4 @@
-function languageRedirect(redirects) {
+window.languageRedirect = redirects => {
     redirects = Object.keys(redirects).reduce((acc, key) => {
         acc[key.toLowerCase()] = redirects[key];
         return acc;
@@ -25,13 +25,15 @@ function languageRedirect(redirects) {
     return data
 }
 
+
 if (
+    document &&
     document.currentScript &&
     document.currentScript.src &&
     document.currentScript.dataset.languageRedirect
 ) {
     try {
-        languageRedirect(JSON.parse(document.currentScript.dataset.languageRedirect))
+        window.languageRedirect(JSON.parse(document.currentScript.dataset.languageRedirect))
     } catch (error) {
         console.error(error)
     }
