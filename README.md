@@ -6,15 +6,13 @@ A lightweight and easy-to-use js library to redirection for support differents l
 
 #### CDN
 
-Include this tag in your html `head`
-
 ```html
-<script src='https://cdn.jsdelivr.net/gh/lullaby6/language-redirect.js/language-redirect.js'></script>
+<script src='https://cdn.jsdelivr.net/gh/lullaby6/language-redirect/language-redirect.js'></script>
 ```
 
 #### Download
 
-<a href="https:/.jsdelivr.net/gh/lullaby6/language-redirect.js/language-redirect.js" target="_blank">Download</a>  and include the downloaded file in your project:
+<a href="https:/.jsdelivr.net/gh/lullaby6/language-redirect/language-redirect.js" target="_blank">Download</a> and include the downloaded file in your project:
 
 ```html
 <script src="/path/to/language-redirect.js"></script>
@@ -28,7 +26,7 @@ In your script tag you can use the `data-language-redirect` attribute for config
 
 ```html
 <script
-    src='https://cdn.jsdelivr.net/gh/lullaby6/language-redirect.js/language-redirect.js'
+    src='https://cdn.jsdelivr.net/gh/lullaby6/language-redirect/language-redirect.js'
     data-language-redirect='{ "es": "/es/about.html" }'
 ></script>
 ```
@@ -42,3 +40,7 @@ languageRedirect({
     es: '/es/index.html'
 });
 ```
+
+# License
+
+MIT
