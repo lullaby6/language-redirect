@@ -1,4 +1,4 @@
-# language-redirect.js
+# Language Redirect
 
 A lightweight and easy-to-use js library to redirection for support differents languages.
 
